@@ -1,0 +1,48 @@
+{
+  "name": "kvz-transliteration",
+  "version": "1.0.22",
+  "description": "transliteration module for indian languages",
+  "main": "transliterator.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^7.2.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && mocha"
+  },
+  "keywords": [
+    "malayalam",
+    "hindi",
+    "kannada",
+    "india",
+    "devanagari",
+    "manglish",
+    "hinglish",
+    "kanglish",
+    "oriya",
+    "punjabi",
+    "gurumukhi",
+    "gujrati",
+    "bengali",
+    "telugu",
+    "tamil",
+    "transliteration",
+    "romanization"
+  ],
+  "author": "viml kumar",
+  "license": "gpl-3.0",
+  "homepage": "https://fb.com/ztrabc",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/hscii810/transliterate_indian_languages.git"
+  }
+}
